@@ -21,7 +21,6 @@ main {
     text-align: center;
     border-radius: 10px;
     width: 450px;
-    height: 500px;
 }
 
 form {
@@ -54,4 +53,24 @@ input[type="submit"] {
 
 input[type="submit"]:active {
     background-color: #3067ce;
+}
+
+table {
+    margin-top: 30px;
+    font-size: 0.8rem;
+}
+
+th,
+td {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #3030ce79;
+}
+
+td {
+    background-color: #dfdfdf;
 }
