@@ -16,7 +16,7 @@ export class PessoaController {
 
         this._listaPessoas = new ListaPessoas()
         
-        this._pessoaView = new PessoaView(document.querySelector(".dates"))
+        this._pessoaView = new PessoaView(document.querySelector(".datas"))
         this._pessoaView.update(this._listaPessoas)
     }
 
